@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: white;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .container {
+    background-color: #111;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+    color: #f0f0f0;
+  }
+  
+  .card {
+    background-color: #f2f2f2;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: #222;
+  }
+
+  .card h5 {
+    color: #111;
+    font-weight: bold;
+  }
+
+  .card p {
+    color: #333;
+  }
+
+  #cart {
+    background-color: white;
+    color: #111;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  #cart p {
+  color: #ccc;
+  font-weight: 500;
+  }
+
+  #cart .text-danger {
+  color: red;
+  }
+
+  #cart .btn-outline-danger {
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    line-height: 1;
+  }
+
+  input[type="number"] {
+  width: 70px;
+  }
+
+  input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.6);
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-remove {
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    line-height: 1;
+    width: auto;
+    min-width: unset;
+  }
+
+  #adminPanel, #addressForm {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  #products, #cart, #orders {
+    margin: 10px auto;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+    max-width: 500px;
+    text-align: left;
+  }
