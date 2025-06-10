@@ -1,9 +1,10 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #fff8dc;
-    background-image: url('https://www.transparenttextures.com/patterns/lined-paper.png');
+    background-image: url('knihybackground.png');
+    background-size: cover;
+    background-position: center;
     background-repeat: repeat;
-    color: #333;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 40px 20px;
     box-sizing: border-box;
@@ -12,117 +13,31 @@ body {
 
 h1, h2 {
     color: #2c3e50;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.8);
 }
 
 .container {
-    background-color: #fefefe;
-    border: 2px dashed #ffcc00;
-    border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 188, 212, 0.2);
     color: #333;
 }
 
 .card {
-    background-color: #ffffff;
-    border: 2px solid #ffd700;
-    border-radius: 8px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-    color: #333;
-    text-align: left;
+    background-color: #fffde7;
+    border: 2px solid #fff9c4;
+    border-radius: 6px;
+    color: #222;
 }
 
 .card h5 {
-    color: #2c3e50;
+    color: #111;
     font-weight: bold;
 }
 
 .card p {
-    color: #555;
-}
-
-#cart {
-    background-color: #fff;
     color: #333;
-    padding: 1rem;
-    border-radius: 8px;
-    border: 2px dotted #009688;
 }
 
-#cart p {
-    color: #555;
-    font-weight: 500;
-}
-
-#cart .text-danger {
-    color: red;
-}
-
-#cart .btn-outline-danger {
-    padding: 2px 8px;
-    font-size: 0.8rem;
-    border-radius: 4px;
-    line-height: 1;
-}
-
-input[type="number"] {
-    width: 70px;
-}
-
-input, button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    font-size: 1rem;
-    width: 100%;
-    max-width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
-
-input:focus {
-    outline: none;
-    border-color: #3498db;
-    box-shadow: 0 0 4px rgba(52, 152, 219, 0.6);
-}
-
-button {
-    background-color: #ff9900;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #e67e22;
-}
-
-.btn-remove {
-    padding: 2px 8px;
-    font-size: 0.8rem;
-    line-height: 1;
-    width: auto;
-    min-width: unset;
-}
-
-#adminPanel, #addressForm {
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    max-width: 500px;
-    text-align: left;
-}
-
-#products, #cart, #orders {
-    margin: 10px auto;
-    padding: 10px;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-    max-width: 500px;
-    text-align: left;
-}
+#
